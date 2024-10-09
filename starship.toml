@@ -1,0 +1,23 @@
+add_newline=false
+format = '$python$all'
+
+[directory]
+truncation_length = 2
+fish_style_pwd_dir_length = 5
+
+[git_branch]
+symbol = ' '
+format = "[$symbol$branch$git_status]($style) "
+style = "bold purple"
+truncation_length = 20
+
+[git_status]
+stashed = ''
+
+[gcloud]
+format = '[$symbol$domain]($style) '
+style = 'bold yellow'
+
+[python]
+format = '[\($virtualenv\)]($style) '
+style = 'italic green'
